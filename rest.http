@@ -1,0 +1,17 @@
+@baseUrl = http://localhost:3000
+
+### Encode text
+POST {{baseUrl}}/encode
+Content-Type: application/json
+
+{
+  "text": "Hello, World!"
+}
+
+### Decode text
+POST {{baseUrl}}/decode
+Content-Type: application/json
+
+{
+  "text": "Itssg, Vgksr!"
+}

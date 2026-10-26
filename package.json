@@ -1,0 +1,14 @@
+{
+  "name": "substservice",
+  "version": "1.0.0",
+  "description": "REST API that encodes and decodes text with a substitution cipher",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
